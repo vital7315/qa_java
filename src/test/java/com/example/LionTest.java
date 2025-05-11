@@ -13,7 +13,7 @@ public class LionTest {
 
     @Mock
     private Feline feline;
-    private Lion lion;
+
     @Test
     public void testDoesHaveManeForMale() throws Exception {
         Lion lion = new Lion("Самец", this.feline);
